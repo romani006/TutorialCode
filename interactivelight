@@ -1,0 +1,8 @@
+-- Thank you for using my script! You can find more on my GitHub account romani006
+script.Parent.ProximityPrompt.Triggered:Connect(function()
+	if script.Parent.PointLight.Enabled == true then
+		script.Parent.PointLight.Enabled = false
+	else
+		script.Parent.PointLight.Enabled = true
+	end
+end)
