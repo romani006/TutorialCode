@@ -1,0 +1,6 @@
+-- Thank you for using my script! You can find more on my GitHub account romani006
+script.Parent.Touched:Connect(function(part)
+	if part.Parent:FindFirstChild("Humanoid") then
+		part.Parent.Humanoid.WalkSpeed = 32
+	end
+end)
